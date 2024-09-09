@@ -164,8 +164,6 @@ def save_training_config(
 
 
 def send_slack_message(message):
-    # token = "xoxb-6716726611638-6716816184550-MiJmp6UqrI0rrK6f4Hql2rD4"
-    # channel = "#notifications"
     token = "enter token"
     channel = "enter channel"
     raise ValueError("Update token and channel to send slack messages")
