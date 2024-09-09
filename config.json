@@ -1,0 +1,10 @@
+{
+    "mathieu_data_path": "M:/underwater_simulator/single_json",
+    "mathieu_data_path_24/10": "M:/underwater_simulator/parsed_footage_v2023-10-24/footage",
+    "cluster_data_path_11/02": "/data/mdheer/input_data/v2023_11_02/footage",
+    "athina_data_path" : "/home/ailioudi/Documents/PythonProjects/git_tudelft/thesis_mathieu/unity_data",
+    "cluster_data_path": "/data/mdheer/input_data/v2023_10_24/footage",
+    "cluster_merged_data_path" : "/data/mdheer/input_data/merged_v2023-10-24_v2023-11-02/",
+    "mathieu_merged": "M:/underwater_simulator/merged_v2023-10-24_v2023-11-02",
+    "default" : ".\\unity_data"
+}
