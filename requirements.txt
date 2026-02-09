@@ -1,0 +1,17 @@
+torch
+torchvision
+torchaudio
+ultralytics
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+pyyaml
+opencv-python
+slack-sdk
+dtaidistance
+frechetdist
+similaritymeasures
+tqdm

@@ -32,10 +32,7 @@ End-to-end research code for building underwater debris detectors that combine s
 Use Python 3.10+ and create an isolated environment:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # .\.venv\Scripts\activate on Windows
-pip install torch torchvision torchaudio
-pip install ultralytics pandas numpy scipy scikit-learn matplotlib seaborn pyyaml opencv-python slack-sdk dtaidistance frechetdist similaritymeasures tqdm
+pip install -r requirements.txt
 ```
 
 
@@ -52,7 +49,7 @@ pip install ultralytics pandas numpy scipy scikit-learn matplotlib seaborn pyyam
     └── settings.json             # Unity environment metadata
 ```
 
-The sample `unity_data/` directory follows this convention and can be used for smoke tests.
+The sample `unity_data/` directory follows this convention and can be used for smoke tests. 
 
 ### 3. Verify YOLO data directories
 
@@ -64,7 +61,7 @@ mkdir -p yolo_data/images/{train,val,test} yolo_data/labels/{train,val,test}
 
 ## Typical Workflow
 1. **Download the full dataset**
-   The full dataset can be found here: 
+   The full dataset can be found here: `https://data.4tu.nl/datasets/09c93995-2d5b-4e44-9de6-b117c87b4704`
 2. **Preprocess Unity annotations (optional).**  
    Use `python src/preprocess_yolo.py` to convert Unity JSON annotations into YOLO-format `.txt` files and preview random examples with bounding boxes. Adjust `InputDataPath` inside the script to choose the source dataset.
 
